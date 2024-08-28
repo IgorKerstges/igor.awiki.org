@@ -1,0 +1,14 @@
+{
+  "name": "igorsdocs",
+  "version": "1.0.0",
+  "description": "> Ein magischer Generator für Dokumentationen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-darklight-theme": "^3.2.0"
+  }
+}
