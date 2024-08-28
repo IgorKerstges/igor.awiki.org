@@ -1,3 +1,9 @@
-# This is a template site for a wiki site based on markdown language files.
+# My personal wiki for notes in teh field of Server & OS
 
-This is a collection of Docsify files that build out my preferred settings for a wiki-site on Github Pages.
+This is a collection of notes that I find handy and need on a regular basis. SOme of these are just one-liners as short reminders while other notes may go into more depth about processes or procedures on setting up hardware and software for virious applications.
+
+- Almalinux 9.4 - Server
+- Almalinux 9.4 - Workstation
+- Podman on Almalinux
+- OCI Cloud
+- ....
