@@ -1,13 +1,24 @@
-# Chapter 1 on the first page
+# Mount the attached block volume
 
-Here we build the hierachy for the sidebar
+Configure server instance and then attach the block device. With this state, we need to take care of following steps:
 
-## Paragarph 1 on the first page
+- mount the blockvolume in fstab with sudo-user
+- map the user home directories to the mounted loactions
+- configure SE-Linux to work with the new home directories
 
-This will show indented in the sidebar
 
-## Paragarph 2 on the first page
+### mount the blockvolume in fstab with sudo-user
 
-This will show indented in the sidebar
+`sudo nano /etc/fstab`
 
-## etc..
+Add following line:
+
+`UUID=0211c06a-afee-4543-98ef-d32f10112973 /mnt       ext4  defaults  0  2`
+
+### map the user home directories to the mounted loactions
+
+..
+
+### configure SE-Linux to work with the new home directories
+
+..
