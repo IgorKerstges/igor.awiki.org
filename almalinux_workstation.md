@@ -77,3 +77,28 @@ sudo reboot now
 
 > [!TIP|style:flat|label:GRUB]
 > If GRUB shows several entries during next boot, then login to KDE Plasma and change the SDDM login screen from 'Breeze Fedora' (Default from GNOME) to 'Breeze'. This can be found in 'System Settings' --> 'Startup and Shutdown' --> 'Login Screen (SDDM)'.
+
+## Remove GNOME
+
+Once I'm satified with the plain setup of KDE Plasma, it is time to remove GNOME:
+
+```
+sudo dnf groupremove 'Workstation'
+```
+
+After a reboot, we now have a working KDE Plasma setup on Alma Linux 9.4 with working Plymouth graphical boot system and logger. The next steps are all about configuring it to performance, functionality and taste..
+
+## Functional changes
+
+### Regional Settings
+
+'System Settings' --> 'Regional Settings'. (As I see fit)
+
+### Bluetooth Moouse/Keyboard
+
+'System Settings' --> 'Bluetooth'. Choose to add new device and follow steps on-screen.
+
+### Adding Flathub sources
+
+Open 'Discover - Software Center' --> 'Settings' and in the section 'Flatpak', check the tick-box for adding Flathub repositories.
+
