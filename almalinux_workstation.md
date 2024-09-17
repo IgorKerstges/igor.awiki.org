@@ -48,3 +48,29 @@ sudo dnf config-manager --set-enabled crb
 sudo dnf install epel-release
 ```
 
+## Install KDE Plasma
+
+1. First, run command to print all available package groups:
+
+```
+sudo dnf group list
+```
+2. Now install the packagegroup for KDE Plasma:
+
+```
+sudo dnf groupinstall 'KDE Plasma Workspaces'
+```
+
+3. Make sure the system will boot to graphical mode:
+
+```
+sudo systemctl set-default graphical.target
+```
+
+4. Switch display manager from GDM to SDDM:
+
+```
+sudo systemctl stop gdm.service
+sudo systemctl enable sddm.service
+```
+
