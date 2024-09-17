@@ -28,7 +28,7 @@ defaultyes=True
 EOF
 ```
 
-also take care of annoying sudo password questions:
+also take care of pesky sudo password questions:
 
 ```
 sudo EDITOR=nano visudo
@@ -70,7 +70,10 @@ sudo systemctl set-default graphical.target
 4. Switch display manager from GDM to SDDM:
 
 ```
-sudo systemctl stop gdm.service
+sudo systemctl disable gdm.service
 sudo systemctl enable sddm.service
+sudo reboot now
 ```
 
+> [!TIP|style:flat|label:GRUB]
+> If GRUB shows several entries during next boot, then login to KDE Plasma and change the SDDM login screen from 'Breeze Fedora' (Default from GNOME) to 'Breeze'. This can be found in 'System Settings' --> 'Startup and Shutdown' --> 'Login Screen (SDDM)'.
