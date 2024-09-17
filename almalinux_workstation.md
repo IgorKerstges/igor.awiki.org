@@ -1,6 +1,6 @@
 # Installing Workstation from minimal iso
 
-Download the minimal iso from Alma's website and start the installation: [AlmaLinux OS 9.4 Minimal ISO]([https://www.genome.gov/](https://repo.almalinux.org/almalinux/9.4/isos/x86_64/AlmaLinux-9.4-x86_64-minimal.iso)
+Download the minimal iso from Alma's website and start the installation: [AlmaLinux OS 9.4 Minimal ISO](https://repo.almalinux.org/almalinux/9.4/isos/x86_64/AlmaLinux-9.4-x86_64-minimal.iso)
 
 I first use GParted to remove any existing partitions from the harddisk I'm installing to. In the installer choices, I choose:
 - install Workstation
