@@ -111,3 +111,11 @@ chown -R $USER:$USER ~/.ssh
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/*
 ```
+
+### Energy saving options
+
+'System Settings' --> 'Power Management', adjust settings to the 'mood of the day'..
+
+Also don't forget to give the Screen Locking settings a look-over:
+
+'System Settings' --> 'Workspace Behavior' --> 'Screen Locking' (option: 'Lock screen automatically')
