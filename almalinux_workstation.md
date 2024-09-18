@@ -119,3 +119,21 @@ chmod 600 ~/.ssh/*
 Also don't forget to give the Screen Locking settings a look-over:
 
 'System Settings' --> 'Workspace Behavior' --> 'Screen Locking' (option: 'Lock screen automatically')
+
+### Bootsplash (for fun)
+
+On my Dell laptop, the bootsplash shows the boring Dell logo with a small spinner below. To change this, we need to update the Plymouth graphical boot system and logger:
+
+```
+sudo dnf install plymouth plymouth-plugin* plymouth-theme* plymouth-scripts
+sudo dracut -f
+```
+
+## Software
+
+I like installing software mostly from flathub. Following packages come to mind:
+- Brave Browser
+- VSCodium
+- Podman Desktop
+...
+
