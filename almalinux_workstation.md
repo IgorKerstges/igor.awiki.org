@@ -102,3 +102,12 @@ After a reboot, we now have a working KDE Plasma setup on Alma Linux 9.4 with wo
 
 Open 'Discover - Software Center' --> 'Settings' and in the section 'Flatpak', check the tick-box for adding Flathub repositories.
 
+### Konsole
+
+Create directory `~/.ssh` and copy the ssh private key files for any remote locations to this directory. Then set proper ownership and permissions:
+
+```
+chown -R $USER:$USER ~/.ssh
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/*
+```
