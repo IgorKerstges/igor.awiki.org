@@ -132,6 +132,7 @@ sudo dracut -f
 ## Software
 
 I like installing software mostly from flathub. Following packages come to mind:
+- atuin (bash shell history)
 - Brave Browser
 - VSCodium
 - Podman Desktop
